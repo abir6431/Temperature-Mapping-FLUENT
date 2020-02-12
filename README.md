@@ -14,5 +14,6 @@ A. UDF file: Tmap_nodes2.c
   In case there are multiple zones for which user seeks the Temperature Mapping data then the zone numbers should be seperated by          commas(,) as shown in Line 53.
 
 B. Python file: csv-file.py
+
   The transcript file obtained from FLUENT has redundant lines, and the data in the file is of type 'string' (even the digits). The python   file removes lines with alphabets and converts data type to float. 
   
